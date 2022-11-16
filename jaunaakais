@@ -1,0 +1,8 @@
+content = input('Ko vēlies rakstīt?')
+amount = int(input('Cik vēlies rakstīt?')):
+
+file = open('loop.txt', 'w', encoding = 'utf-8')
+for i in range(amount):
+    file.write(content + '\n')
+    file.close
+        
